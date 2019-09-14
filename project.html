@@ -43,93 +43,142 @@
 
 			<!-- Main -->
 				<div id="main" class="wrapper style2">
-					<div class="title">Arduino Reticulation Controller</div>
+					<div class="title">Reticulation Controller</div>
 					<div class="container">
 
 						<!-- Content -->
 							<div id="content">
 								<article class="box post">
 									<header class="style1">
-										<h2>Lorem ipsum dolor sit amet magna egestas<br class="mobile-hide" />
-										morbi bibendum sed malesuada</h2>
-										<p>Tempus feugiat veroeros sed nullam dolore</p>
+										<p>Project Overview</p>
 									</header>
-									<a href="#" class="image featured">
-										<img src="images/pic01.jpg" alt="" />
-									</a>
-									<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-									odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-									facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-									tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
-									<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-									habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-									bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-									lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-									Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-									magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-									leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-									amet risus elit.</p>
-									<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-									ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-									eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-									eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-									tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
-									odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-									facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-									tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-									posuere cubilia.</p>
-									<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-									habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-									bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-									lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-									Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-									magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-									leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-									amet risus elit.</p>
+									<p>When it rains, I forget to pause my home reticulation controller, 
+									therefore wasting water. I also have to reprogram my controller after 
+									a power outage. To solve this problem, my project is to build a 
+									replacement controller based on Arduino. The unit will be connected 
+									via WIFI to my home network, with a mobile phone application for 
+									control. A status display and quick test buttons will also be included 
+									on the physical unit. I will enable integration with weather data 
+									sources and a rain sensor for automated pause of watering after rain 
+									and add a temperature sensor so I can remotely check on the 
+									temperature.</p>
+									<header class="style1">
+										<p>Motivation</p>
+									</header>
+									<p>This project will be an important first step for me to build 
+									technical skills in a variety of IT systems. It will provide exposure 
+									to software programming, software APIs, wired and wireless networks, 
+									Arduino controllers and sensors, cloud server services and mobile 
+									phone applications. In addition, it will reduce my water usage at 
+									home, provide additional data about the basic weather conditions in my 
+									local area and save me time currently wasted reprogramming my existing 
+									controller after power outages. After successful completion of this 
+									project, there may a commercial opportunity in selling the required 
+									components and instructions as a DIY kit on Ebay.</p>
+									<header class="style1">
+										<p>Description</p>
+									</header>
+									<p>My current reticulation controller is mounted on the wall by my 
+									front door, so to maintain a similar aesthetic I will be mounting the 
+									finished product in a weather resistant cabinet similar, to this unit 
+									from Eric’s Electronics (<a href="http://www.ericselectronics.com/shop/environmental-technology/smar
+									t-irrigation-controllers/weather-resistant-irrigation-controller-cabinet
+									/">Link to product</a>). The actual Arduino 
+									controller, expansion boards, relays, display, test buttons and WIFI 
+									adaptor will be mounted in an electronics project enclosure with a 
+									clear lid (<a href="https://www.tro-pacific.com/products/enlec-polycarbonate-terminal-box-clear-lid-ip66-300hx230wx100d?utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&gclid=CjwKCAjwtuLrBRAlEiwAPVcZBvglyagzkBFG5Tc1do7tROebRMmr2bGNRzTj1Be2QldqeRUGGJGGchoCvmEQAvD_BwE">Link to product</a>) so that the display and inner workings can 
+									be seen. The rain and temperature sensor will be located separate to 
+									the main controller, in a similar yet smaller enclosure.</p>
+									<p>In the controller enclosure, the display will show the current 
+									system status, including indication of communications connections, 
+									watering currently active or not, what station is active, watering 
+									paused due to rain event, temperature, date and time. Some physical 
+									buttons will be mounted on the enclosure for quick test of each 
+									station, preferable to using the mobile phone application if you have 
+									wet and dirty hands from gardening. To monitor access to the 
+									controller, a door open sensor will be included.  A plug pack mains 
+									power transformer will provide the controller and other components 
+									with the 5V-12V DC power required. The temperature and rain sensors 
+									(located in a separate enclosure) will be rechargeable battery powered 
+									and communicate with the main controller via Bluetooth Low Energy 
+									(BLE), while the main controller will communicate with my home network 
+									via WiFi.</p>
+									<p>Several software features are at the core of this project and will 
+									be adjustable via the mobile application. Watering days and duration 
+									will be adjustable, allowing for alignment with the seasons, correct 
+									watering days for your address and watering bans during certain months 
+									of the year. Watering start time will be fixed or variable, tied to 
+									sunrise plus or minus a fixed time interval, so your watering could 
+									commence 5 minutes before sunrise every day, rather than at 7am every 
+									day. Watering will be cancelled if the rain sensor detects rain before 
+									or during scheduled watering events and rain sensor data can be 
+									correlated with internet weather service data as an addition input to 
+									watering cancellation. The pause duration after a rain event will be 
+									adjustable. A test function for each zone will be available from the 
+									mobile application, in addition to a manual override to the schedule 
+									and display of current system status similar in detail to that 
+									displayed with the on-board controller display.</p>
+									<p>Notifications will be available via the mobile application, 
+									including alarm notifications for loss of WiFi or LBE communications, 
+									low battery for remote sensor enclosure and activation of the cabinet 
+									door open sensor.</p>
+									<p>The backend of this project will require various IT systems and 
+									features, including connection to a Network Time Protocol (NTP) 
+									service for time synchronisation and data integration with a weather 
+									service via an API. Depending on the final design, there may be a 
+									requirement to build a server in the cloud using AWS to collate and 
+									relay data to the mobile application or the Arduino itself.</p>
+									<header class="style1">
+										<p>Tools and Technologies</p>
+									</header>
+									<p>A wide variety of tools and technologies are required for this 
+									project, including software code version control, desktop PC text 
+									editor, Arduino controller board, IO expanders and compatible sensors 
+									and relays, Arduino IDE (used to write and upload Arduino code), 
+									wireless and wired networking, bluetooth low energy, NTP service, AWS 
+									Cloud Servers, IoT mobile application development tool (Blynk or 
+									similar), hand and power tools to build enclosure, electronics 
+									components, soldering iron, cable, connectors, multi-meter and heat 
+									shrink.</p>
+									<p>Where possible, physical components will be sourced from local 
+									suppliers, both to support local business and to enable me to 
+									physically inspect component for fit and finish prior to purchasing.</p>
+									<header class="style1">
+										<p>Skills Required</p>
+									</header>
+									<p>Learning the skills required for this project is a completely 
+									feasible proposition, as there are many tutorials on line for all the 
+									components and code, plus many sample Arduino projects to provide 
+									inspiration. Specific skills include programming Arduino controller 
+									code plus device drivers, Wifi network configuration, domestic 
+									internet router configuration, use of the Blynk mobile application 
+									platform, building a server using AWS, wiring electronics components, 
+									using power and hand tools and drawing schematics and design diagrams 
+									in Microsoft Visio.</p>
+									<header class="style1">
+										<p>Outcome</p>
+									</header>
+									<p>Given the amount of learning required, my expected outcome from 
+									this project will be a functioning demo including hardware and 
+									integration of the mobile application. As a stretch target, I will aim 
+									for a fully functioning unit that can replace my current sprinkler 
+									controller. The intent of using the project as a technical skills 
+									uplift will be realised and in the case of hitting my stretch target, 
+									my issues with overwatering will be resolved. Completing this project 
+									will provide a solid foundation for learning more complicated 
+									technical skills in the future across software development, networking 
+									and server infrastructure. </p>
+									<header class="style1">
+										<p>Reference List</p>
+									</header>
+									<p>Christian, Arduino project hub, 28th January, 2019 viewed 11th September 2019, <a href="https://create.arduino.cc/projecthub/officine/monitor-and-control-your-irrigation-system-with-a-mobile-app-0607bf?ref=search&ref_id=irrigation&offset=5">https://create.arduino.cc/projecthub/officine/monitor-and-control-your-irrigation-system-with-a-mobile-app-0607bf?ref=search&ref_id=irrigation&offset=5</a></p>
+									<p>Officine Innesto, Arduino Project hub, 19th November 2017, viewed 11th September 2019, <a href="https://create.arduino.cc/projecthub/chuygen/smart-irrigation-controller-44ad38?ref=tag&ref_id=irrigation&offset=1">https://create.arduino.cc/projecthub/chuygen/smart-irrigation-controller-44ad38?ref=tag&ref_id=irrigation&offset=1</a></p>
 								</article>
 							</div>
 
 					</div>
 				</div>
 
-			<!-- Highlights -->
-				<section id="highlights" class="wrapper style3">
-					<div class="title">The Endorsements</div>
-					<div class="container">
-						<div class="row aln-center">
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Aliquam diam consequat</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Mattis tempus lorem</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</div>
-				</section>
 
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
